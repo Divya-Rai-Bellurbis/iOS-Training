@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		830BF31323FD0CBC00F4C5C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830BF31223FD0CBC00F4C5C4 /* AppDelegate.swift */; };
+		830BF31523FD0CBC00F4C5C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830BF31423FD0CBC00F4C5C4 /* SceneDelegate.swift */; };
+		830BF31723FD0CBC00F4C5C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830BF31623FD0CBC00F4C5C4 /* ViewController.swift */; };
+		830BF31A23FD0CBC00F4C5C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830BF31823FD0CBC00F4C5C4 /* Main.storyboard */; };
+		830BF31C23FD0CBF00F4C5C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 830BF31B23FD0CBF00F4C5C4 /* Assets.xcassets */; };
+		830BF31F23FD0CBF00F4C5C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830BF31D23FD0CBF00F4C5C4 /* LaunchScreen.storyboard */; };
+		830BF32A23FD0CC000F4C5C4 /* NTTdemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830BF32923FD0CC000F4C5C4 /* NTTdemoTests.swift */; };
+		830BF33523FD0CC000F4C5C4 /* NTTdemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830BF33423FD0CC000F4C5C4 /* NTTdemoUITests.swift */; };
+		830BF35023FD1CAB00F4C5C4 /* MultiCloudVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830BF34E23FD1CAB00F4C5C4 /* MultiCloudVC.swift */; };
+		830BF35123FD1CAB00F4C5C4 /* MultiCloudVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 830BF34F23FD1CAB00F4C5C4 /* MultiCloudVC.xib */; };
+		830BF35423FD46E600F4C5C4 /* RecentNewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830BF35223FD46E600F4C5C4 /* RecentNewsVC.swift */; };
+		830BF35523FD46E600F4C5C4 /* RecentNewsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 830BF35323FD46E600F4C5C4 /* RecentNewsVC.xib */; };
+		830BF35823FD51CD00F4C5C4 /* TestimonialsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830BF35623FD51CD00F4C5C4 /* TestimonialsVC.swift */; };
+		830BF35923FD51CD00F4C5C4 /* TestimonialsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 830BF35723FD51CD00F4C5C4 /* TestimonialsVC.xib */; };
+		837A6B3023FEAB2A00BF3464 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830BF31623FD0CBC00F4C5C4 /* ViewController.swift */; };
+		838E203A2403B157001C8C5B /* CaseStudiesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838E20382403B157001C8C5B /* CaseStudiesVC.swift */; };
+		838E203B2403B157001C8C5B /* CaseStudiesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 838E20392403B157001C8C5B /* CaseStudiesVC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		830BF32623FD0CC000F4C5C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 830BF30723FD0CBC00F4C5C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 830BF30E23FD0CBC00F4C5C4;
+			remoteInfo = NTTdemo;
+		};
+		830BF33123FD0CC000F4C5C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 830BF30723FD0CBC00F4C5C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 830BF30E23FD0CBC00F4C5C4;
+			remoteInfo = NTTdemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		830BF30F23FD0CBC00F4C5C4 /* NTTdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTTdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		830BF31223FD0CBC00F4C5C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		830BF31423FD0CBC00F4C5C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		830BF31623FD0CBC00F4C5C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		830BF31923FD0CBC00F4C5C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		830BF31B23FD0CBF00F4C5C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		830BF31E23FD0CBF00F4C5C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		830BF32023FD0CBF00F4C5C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		830BF32523FD0CC000F4C5C4 /* NTTdemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NTTdemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		830BF32923FD0CC000F4C5C4 /* NTTdemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTTdemoTests.swift; sourceTree = "<group>"; };
+		830BF32B23FD0CC000F4C5C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		830BF33023FD0CC000F4C5C4 /* NTTdemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NTTdemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		830BF33423FD0CC000F4C5C4 /* NTTdemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTTdemoUITests.swift; sourceTree = "<group>"; };
+		830BF33623FD0CC000F4C5C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		830BF34E23FD1CAB00F4C5C4 /* MultiCloudVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiCloudVC.swift; sourceTree = "<group>"; };
+		830BF34F23FD1CAB00F4C5C4 /* MultiCloudVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MultiCloudVC.xib; sourceTree = "<group>"; };
+		830BF35223FD46E600F4C5C4 /* RecentNewsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentNewsVC.swift; sourceTree = "<group>"; };
+		830BF35323FD46E600F4C5C4 /* RecentNewsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecentNewsVC.xib; sourceTree = "<group>"; };
+		830BF35623FD51CD00F4C5C4 /* TestimonialsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestimonialsVC.swift; sourceTree = "<group>"; };
+		830BF35723FD51CD00F4C5C4 /* TestimonialsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestimonialsVC.xib; sourceTree = "<group>"; };
+		838E20382403B157001C8C5B /* CaseStudiesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseStudiesVC.swift; sourceTree = "<group>"; };
+		838E20392403B157001C8C5B /* CaseStudiesVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CaseStudiesVC.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		830BF30C23FD0CBC00F4C5C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		830BF32223FD0CC000F4C5C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		830BF32D23FD0CC000F4C5C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		830BF30623FD0CBC00F4C5C4 = {
+			isa = PBXGroup;
+			children = (
+				830BF31123FD0CBC00F4C5C4 /* NTTdemo */,
+				830BF32823FD0CC000F4C5C4 /* NTTdemoTests */,
+				830BF33323FD0CC000F4C5C4 /* NTTdemoUITests */,
+				830BF31023FD0CBC00F4C5C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		830BF31023FD0CBC00F4C5C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				830BF30F23FD0CBC00F4C5C4 /* NTTdemo.app */,
+				830BF32523FD0CC000F4C5C4 /* NTTdemoTests.xctest */,
+				830BF33023FD0CC000F4C5C4 /* NTTdemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		830BF31123FD0CBC00F4C5C4 /* NTTdemo */ = {
+			isa = PBXGroup;
+			children = (
+				830BF31223FD0CBC00F4C5C4 /* AppDelegate.swift */,
+				830BF31423FD0CBC00F4C5C4 /* SceneDelegate.swift */,
+				830BF31623FD0CBC00F4C5C4 /* ViewController.swift */,
+				830BF31823FD0CBC00F4C5C4 /* Main.storyboard */,
+				830BF31B23FD0CBF00F4C5C4 /* Assets.xcassets */,
+				830BF31D23FD0CBF00F4C5C4 /* LaunchScreen.storyboard */,
+				830BF32023FD0CBF00F4C5C4 /* Info.plist */,
+				830BF34E23FD1CAB00F4C5C4 /* MultiCloudVC.swift */,
+				830BF34F23FD1CAB00F4C5C4 /* MultiCloudVC.xib */,
+				830BF35223FD46E600F4C5C4 /* RecentNewsVC.swift */,
+				830BF35323FD46E600F4C5C4 /* RecentNewsVC.xib */,
+				830BF35623FD51CD00F4C5C4 /* TestimonialsVC.swift */,
+				830BF35723FD51CD00F4C5C4 /* TestimonialsVC.xib */,
+				838E20382403B157001C8C5B /* CaseStudiesVC.swift */,
+				838E20392403B157001C8C5B /* CaseStudiesVC.xib */,
+			);
+			path = NTTdemo;
+			sourceTree = "<group>";
+		};
+		830BF32823FD0CC000F4C5C4 /* NTTdemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				830BF32923FD0CC000F4C5C4 /* NTTdemoTests.swift */,
+				830BF32B23FD0CC000F4C5C4 /* Info.plist */,
+			);
+			path = NTTdemoTests;
+			sourceTree = "<group>";
+		};
+		830BF33323FD0CC000F4C5C4 /* NTTdemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				830BF33423FD0CC000F4C5C4 /* NTTdemoUITests.swift */,
+				830BF33623FD0CC000F4C5C4 /* Info.plist */,
+			);
+			path = NTTdemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		830BF30E23FD0CBC00F4C5C4 /* NTTdemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 830BF33923FD0CC000F4C5C4 /* Build configuration list for PBXNativeTarget "NTTdemo" */;
+			buildPhases = (
+				830BF30B23FD0CBC00F4C5C4 /* Sources */,
+				830BF30C23FD0CBC00F4C5C4 /* Frameworks */,
+				830BF30D23FD0CBC00F4C5C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NTTdemo;
+			productName = NTTdemo;
+			productReference = 830BF30F23FD0CBC00F4C5C4 /* NTTdemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		830BF32423FD0CC000F4C5C4 /* NTTdemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 830BF33C23FD0CC000F4C5C4 /* Build configuration list for PBXNativeTarget "NTTdemoTests" */;
+			buildPhases = (
+				830BF32123FD0CC000F4C5C4 /* Sources */,
+				830BF32223FD0CC000F4C5C4 /* Frameworks */,
+				830BF32323FD0CC000F4C5C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				830BF32723FD0CC000F4C5C4 /* PBXTargetDependency */,
+			);
+			name = NTTdemoTests;
+			productName = NTTdemoTests;
+			productReference = 830BF32523FD0CC000F4C5C4 /* NTTdemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		830BF32F23FD0CC000F4C5C4 /* NTTdemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 830BF33F23FD0CC000F4C5C4 /* Build configuration list for PBXNativeTarget "NTTdemoUITests" */;
+			buildPhases = (
+				830BF32C23FD0CC000F4C5C4 /* Sources */,
+				830BF32D23FD0CC000F4C5C4 /* Frameworks */,
+				830BF32E23FD0CC000F4C5C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				830BF33223FD0CC000F4C5C4 /* PBXTargetDependency */,
+			);
+			name = NTTdemoUITests;
+			productName = NTTdemoUITests;
+			productReference = 830BF33023FD0CC000F4C5C4 /* NTTdemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		830BF30723FD0CBC00F4C5C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Bellubis-WS29";
+				TargetAttributes = {
+					830BF30E23FD0CBC00F4C5C4 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					830BF32423FD0CC000F4C5C4 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 830BF30E23FD0CBC00F4C5C4;
+					};
+					830BF32F23FD0CC000F4C5C4 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 830BF30E23FD0CBC00F4C5C4;
+					};
+				};
+			};
+			buildConfigurationList = 830BF30A23FD0CBC00F4C5C4 /* Build configuration list for PBXProject "NTTdemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 830BF30623FD0CBC00F4C5C4;
+			productRefGroup = 830BF31023FD0CBC00F4C5C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				830BF30E23FD0CBC00F4C5C4 /* NTTdemo */,
+				830BF32423FD0CC000F4C5C4 /* NTTdemoTests */,
+				830BF32F23FD0CC000F4C5C4 /* NTTdemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		830BF30D23FD0CBC00F4C5C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838E203B2403B157001C8C5B /* CaseStudiesVC.xib in Resources */,
+				830BF35123FD1CAB00F4C5C4 /* MultiCloudVC.xib in Resources */,
+				830BF35523FD46E600F4C5C4 /* RecentNewsVC.xib in Resources */,
+				830BF31F23FD0CBF00F4C5C4 /* LaunchScreen.storyboard in Resources */,
+				830BF31C23FD0CBF00F4C5C4 /* Assets.xcassets in Resources */,
+				830BF35923FD51CD00F4C5C4 /* TestimonialsVC.xib in Resources */,
+				830BF31A23FD0CBC00F4C5C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		830BF32323FD0CC000F4C5C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		830BF32E23FD0CC000F4C5C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		830BF30B23FD0CBC00F4C5C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830BF35023FD1CAB00F4C5C4 /* MultiCloudVC.swift in Sources */,
+				838E203A2403B157001C8C5B /* CaseStudiesVC.swift in Sources */,
+				830BF31723FD0CBC00F4C5C4 /* ViewController.swift in Sources */,
+				830BF35823FD51CD00F4C5C4 /* TestimonialsVC.swift in Sources */,
+				830BF31323FD0CBC00F4C5C4 /* AppDelegate.swift in Sources */,
+				830BF35423FD46E600F4C5C4 /* RecentNewsVC.swift in Sources */,
+				830BF31523FD0CBC00F4C5C4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		830BF32123FD0CC000F4C5C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837A6B3023FEAB2A00BF3464 /* ViewController.swift in Sources */,
+				830BF32A23FD0CC000F4C5C4 /* NTTdemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		830BF32C23FD0CC000F4C5C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830BF33523FD0CC000F4C5C4 /* NTTdemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		830BF32723FD0CC000F4C5C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 830BF30E23FD0CBC00F4C5C4 /* NTTdemo */;
+			targetProxy = 830BF32623FD0CC000F4C5C4 /* PBXContainerItemProxy */;
+		};
+		830BF33223FD0CC000F4C5C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 830BF30E23FD0CBC00F4C5C4 /* NTTdemo */;
+			targetProxy = 830BF33123FD0CC000F4C5C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		830BF31823FD0CBC00F4C5C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				830BF31923FD0CBC00F4C5C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		830BF31D23FD0CBF00F4C5C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				830BF31E23FD0CBF00F4C5C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		830BF33723FD0CC000F4C5C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		830BF33823FD0CC000F4C5C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		830BF33A23FD0CC000F4C5C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NTTdemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bellurbis.NTTdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		830BF33B23FD0CC000F4C5C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NTTdemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bellurbis.NTTdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		830BF33D23FD0CC000F4C5C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NTTdemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bellurbis.NTTdemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NTTdemo.app/NTTdemo";
+			};
+			name = Debug;
+		};
+		830BF33E23FD0CC000F4C5C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NTTdemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bellurbis.NTTdemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NTTdemo.app/NTTdemo";
+			};
+			name = Release;
+		};
+		830BF34023FD0CC000F4C5C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NTTdemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bellurbis.NTTdemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NTTdemo;
+			};
+			name = Debug;
+		};
+		830BF34123FD0CC000F4C5C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NTTdemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bellurbis.NTTdemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NTTdemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		830BF30A23FD0CBC00F4C5C4 /* Build configuration list for PBXProject "NTTdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				830BF33723FD0CC000F4C5C4 /* Debug */,
+				830BF33823FD0CC000F4C5C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		830BF33923FD0CC000F4C5C4 /* Build configuration list for PBXNativeTarget "NTTdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				830BF33A23FD0CC000F4C5C4 /* Debug */,
+				830BF33B23FD0CC000F4C5C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		830BF33C23FD0CC000F4C5C4 /* Build configuration list for PBXNativeTarget "NTTdemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				830BF33D23FD0CC000F4C5C4 /* Debug */,
+				830BF33E23FD0CC000F4C5C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		830BF33F23FD0CC000F4C5C4 /* Build configuration list for PBXNativeTarget "NTTdemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				830BF34023FD0CC000F4C5C4 /* Debug */,
+				830BF34123FD0CC000F4C5C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 830BF30723FD0CBC00F4C5C4 /* Project object */;
+}
